@@ -82,9 +82,5 @@ class Grafo {
 			this.matrizAdyacencia[indicesNodos[0]][indicesNodos[1]] = 1;
 			this.matrizAdyacencia[indicesNodos[1]][indicesNodos[0]] = 1;
 		}
-
-		console.info("MATRIZ ADYACENCIA: ");
-		console.log(this.matrizAdyacencia);
-		console.log(JSON.stringify(this.matrizAdyacencia));
 	}
 }
