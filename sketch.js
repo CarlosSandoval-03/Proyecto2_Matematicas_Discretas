@@ -3,7 +3,7 @@ let grafoAleatorio;
 function setup() {
 	createCanvas(windowWidth, windowHeight);
 	grafoAleatorio = new Grafo_Aleatorio(200, windowWidth, windowHeight);
-	grafoAleatorio.generar();
+	grafoAleatorio.generar(true);
 }
 
 function draw() {

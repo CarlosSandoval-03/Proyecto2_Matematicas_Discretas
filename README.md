@@ -1,6 +1,6 @@
 # Proyecto 2 - Matematicas Discretas
 
-Desarrollo de un algoritmo con la capacidad de graficar grafos aleatorios y planos, este debe poseer un metodo que permita reconocer todos los subgrafos que sean completos
+Desarrollo de un algoritmo con la capacidad de graficar grafos aleatorios y planos
 
 ## Librerias empleadas
 
