@@ -1,7 +1,12 @@
+let grafoAleatorio;
+
 function setup() {
-  createCanvas(400, 400);
+	createCanvas(windowWidth, windowHeight);
+	grafoAleatorio = new Grafo_Aleatorio(200, windowWidth, windowHeight);
+	grafoAleatorio.generar();
 }
 
 function draw() {
-  background(220);
+	background(220);
+	grafoAleatorio.dibujar();
 }
